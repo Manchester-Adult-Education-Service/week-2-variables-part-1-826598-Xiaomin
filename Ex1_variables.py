@@ -42,6 +42,12 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
+name = "Alice"
+age = 25
+food = "pizza"
+print(f"Hello {name}")
+
+
 
 # -------------------------------------------
 # Task 2: Using Variables in Sentences
@@ -63,7 +69,9 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
-
+print(f"{name} is 25 years old")
+print(f"In 5 years, {name} will be {age + 5}")
+print(f"{name} really likes {food}")
 
 # -------------------------------------------
 # Task 3: The Power of Refactoring
@@ -78,7 +86,13 @@ print("\n-------------------------------------------\n"
 # 3. Print the same 4 sentences as above, but for Bob.
 
 # Write your code below:
-
+Name = "Bob"
+Age = 20
+Food = "Fish"
+print(f"Hello {Name}")
+print(f"{Name} is {Age} years old")
+print(f"In 5 years, {Name} will be {Age + 5}")
+print(f"{Name} really likes {Food}")
 
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
