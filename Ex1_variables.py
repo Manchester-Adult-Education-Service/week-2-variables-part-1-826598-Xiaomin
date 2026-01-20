@@ -42,6 +42,12 @@ print("-------------------------------------------\n"
 
 # Write your code below:
 
+name = "Alice"
+age = 25
+food = "pizza"
+print(f"Hello {name}")
+
+
 
 # -------------------------------------------
 # Task 2: Using Variables in Sentences
@@ -63,7 +69,9 @@ print("\n-------------------------------------------\n"
 # print(f"Your double score is {score * 2}")
 
 # Write your code below:
-
+print(f"{name} is 25 years old")
+print(f"In 5 years, {name} will be {age + 5}")
+print(f"{name} really likes {food}")
 
 # -------------------------------------------
 # Task 3: The Power of Refactoring
@@ -78,7 +86,13 @@ print("\n-------------------------------------------\n"
 # 3. Print the same 4 sentences as above, but for Bob.
 
 # Write your code below:
-
+Name = "Bob"
+Age = 20
+Food = "Fish"
+print(f"Hello {Name}")
+print(f"{Name} is {Age} years old")
+print(f"In 5 years, {Name} will be {Age + 5}")
+print(f"{Name} really likes {Food}")
 
 # -------------------------------------------
 # CHECKPOINT: WHAT IS GIT?
@@ -116,6 +130,9 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+name1 = input("What is your name?")
+print(f"Welcome {name1}")
+
 
 # Extension 2: Integer Conversion
 # -------------------------------------------
@@ -128,6 +145,9 @@ print("\n-------------------------------------------\n"
 # Ask the user for their age and tell them how old they will be next year.
 
 # Write your code below:
+
+age1 = int(input("How old are you?"))
+print(f"In 5 years, {name} will be {age1 + 5}")
 
 
 # Extension 3: Case Formatting
@@ -144,6 +164,8 @@ print("\n-------------------------------------------\n"
 # print(name.capitalize())
 
 # Write your code below:
+
+print(food.upper())
 
 
 # -------------------------------------------
@@ -172,6 +194,15 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+name_1 = input("What is your name? ")
+age_1 = int(input("How old are you? "))
+gender = input("What is your gender? ")
+nationality = input("What is your nationality? ")
+print(f"Profile Card of {name_1} is {name_1} , {age_1} years old, {gender} , a {nationality} citizen.")
+if age_1 > 18:
+    print("Account type: Adult")
+else:
+    print("Account type: Junior")
 
 # -------------------------------------------
 # FINAL SUBMISSION
