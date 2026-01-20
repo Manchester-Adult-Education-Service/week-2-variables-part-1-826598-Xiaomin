@@ -130,6 +130,9 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+name1 = input("What is your name?")
+print(f"Welcome {name1}")
+
 
 # Extension 2: Integer Conversion
 # -------------------------------------------
@@ -142,6 +145,9 @@ print("\n-------------------------------------------\n"
 # Ask the user for their age and tell them how old they will be next year.
 
 # Write your code below:
+
+age1 = int(input("How old are you?"))
+print(f"In 5 years, {name} will be {age1 + 5}")
 
 
 # Extension 3: Case Formatting
@@ -158,6 +164,8 @@ print("\n-------------------------------------------\n"
 # print(name.capitalize())
 
 # Write your code below:
+
+print(food.upper())
 
 
 # -------------------------------------------
