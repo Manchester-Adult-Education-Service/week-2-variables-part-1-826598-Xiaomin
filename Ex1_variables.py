@@ -194,6 +194,15 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+name_1 = input("What is your name? ")
+age_1 = int(input("How old are you? "))
+gender = input("What is your gender? ")
+nationality = input("What is your nationality? ")
+print(f"Profile Card of {name_1} is {name_1} , {age_1} years old, {gender} , a {nationality} citizen.")
+if age_1 > 18:
+    print("Account type: Adult")
+else:
+    print("Account type: Junior")
 
 # -------------------------------------------
 # FINAL SUBMISSION
